@@ -25,7 +25,7 @@ Open a terminal in the resultant folder.
 ```sh
 sudo dpkg -i *.deb
 ```
-This will install the kernel and headers and will then update grub. Reboot.
+This will install the kernel and headers and will then update both your initramfs and then grub. Reboot.
 
 If for some reason the kernel doesn't work for you, uninstall using apt:
 ```sh
