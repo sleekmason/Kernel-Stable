@@ -24,7 +24,7 @@ __Features:__
 
 ## Instructions
 
-Download the Folder containing both the kernels and the headers. <br/>
+Download the file containing both the kernels and the headers and unzip the file. <br/>
 Open a terminal in the resultant folder.
 ```sh
 sudo dpkg -i *.deb
