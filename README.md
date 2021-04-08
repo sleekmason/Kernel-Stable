@@ -2,22 +2,18 @@
 
 Custom kernel to go with Lilidog. Built with sources from https://www.kernel.org/ 
 
-This is a "Long Term support" kernel I am using as a custom base, and is suitable for stable Debian. <br/>
+This is a kernel I am using as a custom base. <br/>
 Please note that these images are not patched by Debian to remove non-free items.
 
-Both the unstable and stable kernel version should provide for various improvements throughout the build. <br/>
-Find the unstable version here: https://github.com/sleekmason/Kernel-Unstable
-
+ 
 __Features:__
 
 - amd64
-- Long term support kernel with the latest updates.
 - Debugging mostly removed.
 - Support for ntfs read and write.
 - Timer frequency of 1000 vs 250 for desktop use.
 - The ability to access the .config through /proc/config.gz (or dmesg in a terminal).
 - Compressed cache for swap pages.
-- More to come.
 
 ## Instructions
 
